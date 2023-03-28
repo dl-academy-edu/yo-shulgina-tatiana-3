@@ -17,7 +17,7 @@
 */
 @import "_blocks/container";
 @import "_blocks/footer";
-
+@import "_blocks/header";
 /*
   Ниже пример подключения других блоков
 
@@ -34,5 +34,4 @@
   Не стал выносить в отдельный файл, но если бы блок coming-soon действительно был бы нужен,
   то он должен был бы быть в файле _blocks/coming-soon.scss
 */
-
 

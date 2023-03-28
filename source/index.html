@@ -5,66 +5,56 @@
     <meta name="viewport" content="width=device-width">
     <meta name="google" content="notranslate">
     <meta name="format-detection" content="telephone=no">
-
     <title>DL Academy</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
-
     <script>
       var docElement = document.documentElement;
       docElement.className = docElement.className.replace(/\bno-js\b/, '') + ' js';
     </script>
-
     <!-- Favicon -->
-
     <!-- build:css -->
     <link href="css/style.min.css" rel="stylesheet">
     <!-- endbuild -->
   </head>
   <body>
-    <table>
-      <tr>
-        <th>Наименование оборудования</th>
-        <th>Количество</th>
-      </tr>
-      <tr>
-        <td>Стул стоматологический</td>
-        <td>1</td>
-      </tr>
-      <tr>
-        <td>Бормашина</td>
-        <td>1</td>
-      </tr>
-      <tr>
-        <td>Автоклав</td>
-        <td>1</td>
-      </tr>
-      <tr>
-        <td>Установка аспирационная</td>
-        <td>1</td>
-      </tr>
-      <tr>
-        <td>Фотополимерная лампа</td>
-        <td>1</td>
-      </tr>
-      <tr>
-        <td>Рентгенаппарат</td>
-        <td>1</td>
-      </tr>
-      <tr>
-        <td>Инструменты для удаления зубов</td>
-        <td>несколько комплектов</td>
-      </tr>
-      <tr>
-        <td>Инструменты для лечения зубов</td>
-        <td>несколько комплектов</td>
-      </tr>
-      <tr>
-        <td>Стерилизатор</td>
-        <td>1</td>
-      </tr>
-    </table>
-    
+    @@include('blocks/header.html')
+    <main>
+      <section class="slider container">
+        <ul class="slider__list">
+          <li class="slider__list_name">
+            <h1>Tatiana Shulgina</h1>
+          </li>
+          <li class="slider__list_text">
+            <p>Future front-end developer
+              41 years old, Tolyatti</p>
+          </li>
+        </ul>
+        <div class="slider__box">
+          <img src="./img/foto.jpg" alt="Студент DL Academy" width="1000px" height="465px">
+          <div class="slider__box__btn">
+            <button class="slider__box__btn_left" type="button"></button>
+            <ul class="slider__box__btn_items">
+              <li><button class="slider__box__btn_items-circles" type="button"></button></li>
+              <li><button class="slider__box__btn_items-circles" type="button"></button></li>
+              <li><button class="slider__box__btn_items-circles" type="button"></button></li>
+              <li><button class="slider__box__btn_items-circles" type="button"></button></li>
+            </ul>
+            <button class="slider__box__btn_right" type="button"></button>
+          </div>       
+        </div>
+      </section>
+      <section class="about">
+        <h1>About me</h1>
+        <div>
+          <img src="" alt="Blocks one">
+          <p>Aliquam tortor molestie turpis est tristique. Congue diam orci amet quis semper ut. Vitae aenean nibh facilisis urna, ultricies euismod nunc. Commodo fringilla sit hendrerit consequat. Vel ac elit vel sagittis.</p>
+        </div>
+
+        <p>Tincidunt id quis pellentesque rutrum pretium. Egestas aliquam dictum ipsum nisl, sed pulvinar. Commodo elit sed a fermentum non justo. Etiam platea consectetur.</p>
+        <p>Quam ipsum odio tellus etiam aliquam dolor ut hendrerit. Felis risus nec vitae nunc ultricies placerat. Nullam nec felis eu id dolor pellentesque tristique. </p>
+      </section>
+    </main>
     <script src="js/app.js" defer></script>
   </body>
 </html>
