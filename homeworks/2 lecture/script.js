@@ -6,26 +6,26 @@ for ( i = 1; i <= userNum; i++) {
 }
 
 
-// программа 2
-// let number = prompt("Введите число:"); // Запрос числа у пользователя
-// let factorial = 1;
-// let i = 1;
+//программа 2
+let number = prompt("Введите число:"); // Запрос числа у пользователя
+let factorial = 1;
+let i = 1;
 
-// while (i <= number) { // Вычисление факториала с помощью цикла while
-//   factorial *= i;
-//   i++;
-// }
+while (i <= number) { // Вычисление факториала с помощью цикла while
+  factorial *= i;
+  i++;
+}
 
-// alert(`Факториал числа ${number} равен ${factorial}`); 
+alert(`Факториал числа ${number} равен ${factorial}`); 
 
 
-// программа 3
+//программа 3
 
-// for (userNumber = prompt('Введите число, которое хотите возвести в степень'); userDeg = prompt('Введите степень числа'); userDeg != 0) {
-//   alert(Math.pow(userNumber, userDeg));
-// }
+for (userNumber = prompt('Введите число, которое хотите возвести в степень'); userDeg = prompt('Введите степень числа'); userDeg != 0) {
+  alert(Math.pow(userNumber, userDeg));
+}
 
-// программа 4
+//программа 4
 
 // let zxc = prompt('Введите число, факториал которого хотите получить');
 // while (zxc != 0) 
