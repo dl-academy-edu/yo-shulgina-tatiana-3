@@ -20,3 +20,27 @@
     display: table;
   }
 }
+
+@mixin H2 {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  // font-weight: bold;
+  font-size: 38px;
+  line-height: 44px;
+  text-align: center;
+  color: #070707;
+}
+
+@mixin description {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #070707;
+}
+
+
+
+
