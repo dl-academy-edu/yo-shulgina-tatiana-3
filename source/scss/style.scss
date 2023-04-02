@@ -19,6 +19,7 @@
 @import "_blocks/footer";
 @import "_blocks/header";
 @import "fonts";
+@import "profile";
 /*
   Ниже пример подключения других блоков
 
@@ -166,13 +167,19 @@
     margin-top: 50px;
     display: flex;
     &_items {
-      // width: 180px;
-      height: 168px;
       display: flex;
       flex-direction: column;
-      position: absolute;
       justify-content: center;
       align-items: center;
+    }
+    &_name {
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+      color: #828282;
     }
   }
 }
@@ -204,3 +211,20 @@
 //   cursor: pointer;
 // }
 
+.portfolio {
+  margin-top: 64px;
+  height: 816px;
+  background: #F6F6F6;
+  &__title {
+    padding-top: 60px;
+    @include H2
+  }
+  &__banner{
+    min-width: 50px;
+    margin-left: 325px;
+    width: 1000px;
+    height: 604px;
+    background: #fff;  
+
+  }
+}

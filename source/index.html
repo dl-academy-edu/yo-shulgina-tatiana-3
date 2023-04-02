@@ -18,7 +18,9 @@
     <!-- endbuild -->
   </head>
   <body>
-    @@include('blocks/header.html')
+    <header>
+      @@include('blocks/header.html')
+    </header>
     <main>
       <section class="slider container">
         <ul class="slider__list">
@@ -59,67 +61,70 @@
         <p class="skills__box_descr">I work in such programs as</p>
         <div class="skills__box__list">
           <ul class="skills__box__list_items">
-            <li class="">
-              <img src="./img/html.png" alt="HTML skills" width="px" height="px">
+            <li>
+              <img src="./img/html.png" alt="HTML skills" width="79px" height="90px">
             </li>
-            <li class="">
+            <li class="skills__box__list_name">
               <p>HTML 5</p>
             </li>
             <li class="slider">
-              <label for="progress">92%</label>
+              <label class="skills__box__list_name" for="progress">92%</label>
               <input type="range" id="progress" name="progrecc" min="1" max="100">
             </li>
           </ul>
-          <ul class="">
+          <ul class="skills__box__list_items">
             <li class="">
-              <img src="./img/css.png" alt="CSS skills" width="px" height="px">
+              <img src="./img/css.png" alt="CSS skills" width="79px" height="90px">
             </li>
-            <li class="">
+            <li class="skills__box__list_name">
               <p>CSS/SCSS</p>
             </li>
             <li class="slider">
-              <label for="progress">82%</label>
+              <label class="skills__box__list_name" for="progress">82%</label>
               <input type="range" id="progress" name="progrecc" min="1" max="100">
             </li>
           </ul>
-          <ul class="">
+          <ul class="skills__box__list_items">
             <li class="">
-              <img src="./img/js.png" alt="JS skills" width="px" height="px">
+              <img src="./img/js.png" alt="JS skills" width="68px" height="90px">
             </li>
-            <li class="">
+            <li class="skills__box__list_name">
               <p>JavaScript</p>
             </li>
             <li class="slider">
-              <label for="progress">96%</label>
+              <label class="skills__box__list_name" for="progress">96%</label>
               <input type="range" id="progress" name="progrecc" min="1" max="100">
             </li>
           </ul>
-          <ul class="">
+          <ul class="skills__box__list_items">
             <li class="">
-              <img src="./img/git.png" alt="GitHub skills" width="px" height="px">
+              <img src="./img/git.png" alt="GitHub skills" width="90px" height="90px">
             </li>
-            <li class=""><p>Git/GitHub</p></li>
+            <li class="skills__box__list_name"><p>Git/GitHub</p></li>
             <li class="slider">
-              <label for="progress">55%</label>
+              <label class="skills__box__list_name" for="progress">55%</label>
               <input type="range" id="progress" name="progrecc" min="1" max="100">
             </li>
           </ul>
-          <ul class="">
+          <ul class="skills__box__list_items">
             <li class="">
-              <img src="./img/figma.png" alt="Figma skills" width="px" height="px">
+              <img src="./img/figma.png" alt="Figma skills" width="60px" height="90px">
             </li>
-            <li class="">
+            <li class="skills__box__list_name">
               <p>Figma</p>
             </li>
             <li class="slider">
-              <label for="progress">48%</label>
+              <label class="skills__box__list_name" for="progress">48%</label>
               <input type="range" id="progress" name="progrecc" min="1" max="100">
             </li>
           </ul>
       </div>
       </section>
-      <section>
-        <h1>Portfolio</h1>        
+      <section class="portfolio">
+        <h1 class="portfolio__title">Portfolio</h1>   
+        <div class="portfolio__banner">
+
+        </div>     
       </section>
     </main>
     <footer>
