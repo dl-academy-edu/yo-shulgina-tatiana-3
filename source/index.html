@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <title>DL Academy</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <script>
+      var docElement = document.documentElement;
+      docElement.className = docElement.className.replace(/\bno-js\b/, '') + ' js';
+    </script>
+    <!-- Favicon -->
+    <!-- build:css -->
+    <link href="css/style.min.css" rel="stylesheet">
+    <!-- endbuild -->
+  </head>
+  <body>
+    <header>
+      @@include('blocks/header.html')
+    </header>
+    <main>
+      <section class="slider container">
+        <ul class="slider__list">
+          <li class="slider__list_name">
+            <h1>Tatiana Shulgina</h1>
+          </li>
+          <li class="slider__list_text">
+            <p>Future front-end developer
+              41 years old, Tolyatti</p>
+          </li>
+        </ul>
+        <div class="slider__box container">
+          <img src="./img/foto.jpg" alt="Студент DL Academy" width="1000px" height="465px">
+          <div class="slider__box__btn">
+            <button class="slider__box__btn_left" type="button"></button>
+            <ul class="slider__box__btn_items">
+              <li><button class="slider__box__btn_items-circles" type="button"></button></li>
+              <li><button class="slider__box__btn_items-circles" type="button"></button></li>
+              <li><button class="slider__box__btn_items-circles" type="button"></button></li>
+              <li><button class="slider__box__btn_items-circles" type="button"></button></li>
+            </ul>
+            <button class="slider__box__btn_right" type="button"></button>
+          </div>       
+        </div>
+      </section>
+      <section class="about">
+        <h2 class="about__title">About me</h2>
+        <ul class="about__block">
+            <li class="about__block_items"><img src="./img/ramaone.png" alt="Message about my one"><p class="about__block__text">Aliquam tortor molestie turpis est tristique. Congue diam orci amet quis semper ut. Vitae aenean nibh facilisis urna, ultricies euismod nunc. Commodo fringilla sit hendrerit consequat. Vel ac elit vel sagittis.</p></li>
+            <li class="about__block_items-midlle"><img src="./img/ramatwo.png" alt="Blocks one"><p class="about__block__text">Tincidunt id quis pellentesque rutrum pretium. Egestas aliquam dictum ipsum nisl, sed pulvinar. Commodo elit sed a fermentum non justo. Etiam platea consectetur.</p></li>
+            <li class="about__block_items"><img src="./img/ramathree.png" alt="Blocks one"><p class="about__block__text">Quam ipsum odio tellus etiam aliquam dolor ut hendrerit. Felis risus nec vitae nunc ultricies placerat. Nullam nec felis eu id dolor pellentesque tristique.</p></li>   
+        </ul>      
+      </section>
+      <section class="container skills__box">
+        <h2 class="skills__box_title">
+          Skills
+        </h2>
+        <p class="skills__box_descr">I work in such programs as</p>
+        <div class="skills__box__list">
+          <ul class="skills__box__list_items">
+            <li>
+              <img src="./img/html.png" alt="HTML skills" width="79px" height="90px">
+            </li>
+            <li class="skills__box__list_name">
+              <p>HTML 5</p>
+            </li>
+            <li class="slider">
+              <label class="skills__box__list_name" for="progress">92%</label>
+              <input type="range" id="progress" name="progrecc" min="1" max="100">
+            </li>
+          </ul>
+          <ul class="skills__box__list_items">
+            <li class="">
+              <img src="./img/css.png" alt="CSS skills" width="79px" height="90px">
+            </li>
+            <li class="skills__box__list_name">
+              <p>CSS/SCSS</p>
+            </li>
+            <li class="slider">
+              <label class="skills__box__list_name" for="progress">82%</label>
+              <input type="range" id="progress" name="progrecc" min="1" max="100">
+            </li>
+          </ul>
+          <ul class="skills__box__list_items">
+            <li class="">
+              <img src="./img/js.png" alt="JS skills" width="68px" height="90px">
+            </li>
+            <li class="skills__box__list_name">
+              <p>JavaScript</p>
+            </li>
+            <li class="slider">
+              <label class="skills__box__list_name" for="progress">96%</label>
+              <input type="range" id="progress" name="progrecc" min="1" max="100">
+            </li>
+          </ul>
+          <ul class="skills__box__list_items">
+            <li class="">
+              <img src="./img/git.png" alt="GitHub skills" width="90px" height="90px">
+            </li>
+            <li class="skills__box__list_name"><p>Git/GitHub</p></li>
+            <li class="slider">
+              <label class="skills__box__list_name" for="progress">55%</label>
+              <input type="range" id="progress" name="progrecc" min="1" max="100">
+            </li>
+          </ul>
+          <ul class="skills__box__list_items">
+            <li class="">
+              <img src="./img/figma.png" alt="Figma skills" width="60px" height="90px">
+            </li>
+            <li class="skills__box__list_name">
+              <p>Figma</p>
+            </li>
+            <li class="slider">
+              <label class="skills__box__list_name" for="progress">48%</label>
+              <input type="range" id="progress" name="progrecc" min="1" max="100">
+            </li>
+          </ul>
+      </div>
+      </section>
+      <section class="portfolio">
+        <h1 class="portfolio__title">Portfolio</h1>   
+        <div class="portfolio__banner">
+
+        </div>     
+      </section>
+    </main>
+    <footer>
+      @@include('blocks/footer.html')
+    </footer>
+    <script src="js/app.js" defer></script>
+  </body>
+</html>

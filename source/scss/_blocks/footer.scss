@@ -1,0 +1,71 @@
+/*
+  Код ниже нужно удалить, он добавлен просто для примера
+*/
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  &__title {
+    margin-top: 60px;
+    @include H2
+  }
+  &__descr {
+    @include description;
+    width: 240px;
+    text-align: center;
+  }
+  &__btn {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 29px;
+    background: #070707;
+    border: 2px solid #070707;
+    border-radius: 30px;
+  }
+  &__btn:hover {
+    color: #070707;
+    background: #FFFFFF;
+    border: 2px solid #070707;
+    cursor: pointer;
+  }
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+  &__nav {
+    @include social__btn;
+    color: #070707;
+    padding: 5px 12px;
+    background: #FFFFFF;
+    border: 2px solid #070707;
+    border-radius: 30px;
+  }
+  &__nav:hover {
+    color: #FFFFFF;
+    background: #070707;
+    cursor: pointer;
+  }
+}
+
+.footer__list {
+  margin-top: 45px;
+  text-align: center;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #828282;
+  margin-bottom: 60px;
+}

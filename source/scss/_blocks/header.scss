@@ -1,0 +1,31 @@
+.header__block {
+    display: flex;
+    gap: 68%;
+    border-bottom: 1px solid #828282;
+    padding-bottom: 32px;
+    width: 1000px;   
+}
+
+.meny {
+    margin-top: 33px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+
+.meny__nav {
+    display: flex;
+    gap: 20px;
+    margin-top: 33px;
+    &_list {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;     
+        color: #828282;
+    }
+}

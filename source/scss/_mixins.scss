@@ -1,0 +1,54 @@
+@mixin no-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin no-btn {
+  background: transparent;
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+@mixin clearfix {
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+@mixin H2 {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  // font-weight: bold;
+  font-size: 38px;
+  line-height: 44px;
+  text-align: center;
+  color: #070707;
+}
+
+@mixin description {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #070707;
+}
+
+@mixin social__btn {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+
+
